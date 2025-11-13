@@ -31,56 +31,28 @@ APPARATUS REQUIRED: Personal computer with Keil software
 <img width="261" height="308" alt="image" src="https://github.com/user-attachments/assets/bffe89f6-3ba9-4294-b817-8b545f680e66" />
 
 **Program:**
-
+```
 ORG 0000H   
-
 MOV A,#04H  
-
 MOV R0,A  
-
 ACALL FACTORIAL  
-
 MOV 40H,A  
-
 SJMP THIN  
-
 FACTORIAL:DEC R0  
-
 CJNE R0,#01H,PRODUCT  
-
-SJMP THICK   
-
+SJMP THICK 
 PRODUCT:MOV B,R0  
-
 MUL AB  
-
 ACALL FACTORIAL  
-
 THICK: RET  
-
 THIN:  
-
 END
-
+```
 **Output:**  
 
-<br>
-<br>
-<br>
-
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f417c392-65d4-4ee1-9d2c-6f1545903c86" />
 
 **Manual Calculations:**  
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
 
 
 **Result:**
