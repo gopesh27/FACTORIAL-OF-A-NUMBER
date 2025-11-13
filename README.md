@@ -53,6 +53,7 @@ END
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f417c392-65d4-4ee1-9d2c-6f1545903c86" />
 
 **Manual Calculations:**  
+![WhatsApp Image 2025-11-13 at 21 45 31_92934392](https://github.com/user-attachments/assets/ec6514d3-2464-4a2b-b390-9949888509f6)
 
 
 **Result:**
